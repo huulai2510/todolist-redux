@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 
-class Products extends Component {
+class Tasks extends Component {
     render() {
         return (
-            <div className='container text-center'>
+            <div className="container text-center">
                 <table className="table">
                     <thead>
                         <tr>
                             <th>STT</th>
-                            <th>Tên</th>
-                            <th>Trạng thái</th>
-                            <th>Tùy chọn</th>
+                            <th>Name</th>
+                            <th>Status</th>
+                            <th>Option</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -22,4 +22,4 @@ class Products extends Component {
     }
 }
 
-export default Products;
+export default Tasks;

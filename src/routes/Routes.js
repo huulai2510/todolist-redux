@@ -1,22 +1,22 @@
 import React from 'react'
-import ProductsContainer from '../containers/ProductsContainer'
-import ProductEdit from '../containers/ProductEdit'
+import TaskContainer from '../containers/TaskContainer'
+import TaskEdit from '../containers/TaskEdit'
 
 const routes = [
     {
         path: '/',
         exact: true,
-        main: () => < ProductsContainer />
+        main: () => <TaskContainer />
     },
     {
         path: '/edit/:id',
         exact: false,
-        main: ({match, history}) => < ProductEdit history={history} match={match} />
+        main: ({match, history}) => <TaskEdit match={match} history={history} />
     },
     {
         path: '/edit',
         exact: false,
-        main: ({match, history}) => < ProductEdit history={history} match={match} />
+        main: ({match, history}) => <TaskEdit match={match} history={history} />
     }
 ]
 
