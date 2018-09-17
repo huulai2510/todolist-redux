@@ -2,16 +2,21 @@ import * as types from '../constants/actionType'
 
 const initialState = [
     {
-        name: 'name 1',
-        status: false
-    },
-    {
-        name: 'name 2',
+        name: 'Learn React',
         status: true
     },
     {
-        name: 'name 3',
+        name: 'Learn Node',
+        status: true
+    },
+    {
+        name: 'Learn MongoDB',
         status: false
+    }
+    ,
+    {
+        name: 'Learn Express',
+        status: true
     }
 ]
 
